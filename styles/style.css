@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End Eric Meyer Reset */
+
+/* End CSS Resets */
+
+/* Typography */
+
+html{
+	background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	color:white;
+	line-height: 1.8rem;
+}
+
+
+/* Typography */
+
+h1, h2 {
+	font-weight: bold;	
+}
+
+h1 {
+	font-size: 42px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 20px;	
+}
+
+p {
+	font-size: 20px;
+	margin-bottom: 20px;	
+}
+
+.container {
+	width: 580px;
+	padding: 30px;
+	margin: 100px auto;	
+	background-color: rgba(29, 29, 29, 1);
+	
+}
+input[type=submit]{
+	background-color:white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
